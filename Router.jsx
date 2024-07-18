@@ -9,7 +9,7 @@ import ProductDetail from './src/pages/productDetail/ProductDetail'
 
 const Routeing = () => {
   return (
-    <Router>
+    <Router basename="/Amazon-clone">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/auth" element={<Signup />} />
