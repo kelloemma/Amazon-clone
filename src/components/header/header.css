@@ -1,0 +1,122 @@
+.headerOutter {
+  height: 80px;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.headerOutter a{
+    text-decoration: none;
+
+}
+.headerOutter a:hover{
+    border:1px solid white
+    
+
+}
+.headerOutter div {
+    color: white;
+}
+.headerOutter p {
+  color: white;
+}
+/* left */
+
+.headerLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+
+}
+.headerLogo img {
+ width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+.headerLocation p{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+   
+}
+
+
+
+/* middle */
+.headerSearch{
+      display: flex;
+  align-items: center;
+
+}
+.headerSearch select{
+ padding: 0px;
+   height: 33px;
+   width: 50px;
+   border-color: orange;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-width: 2px;
+
+}
+.headerSearch input {
+   
+ height: 11px;
+  padding: 10px;
+  border: none;
+  width:1000px ;
+}
+.headerserachIcon{
+  height: 33px;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+     border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+ 
+background-color:#F3A847;
+}
+
+
+
+/* left */
+.headerSignout {
+    width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.headerSignoutOne{
+      display: flex;
+  align-items: center;
+
+}
+.headerSignout img{
+    width:20px
+}
+.headerCarts{
+         display: flex;
+  align-items: center;
+}
+.headerSign{
+           display: flex;
+  align-items: center;
+
+}
+.headerCarts{
+    position: relative;
+}
+.headerCarts span{
+    position: absolute;
+    color: #F3A847;
+    bottom:11px ;
+    left: 7px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
